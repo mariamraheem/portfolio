@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Mariam Raheem</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">MR</a>
+            <div class="nav-links">
+                <a href="index.html#about" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link active">Projects</a>
+                <a href="index.html#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Header -->
+    <section class="projects-header">
+        <div class="container">
+            <h1 class="page-title">All Projects</h1>
+            <p class="page-subtitle">A collection of applications, analyses, and experiments</p>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-section">
+        <div class="container">
+            <!-- Filter Options (optional) -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="apps">Web Apps</button>
+                <button class="filter-btn" data-filter="analysis">Analysis</button>
+                <button class="filter-btn" data-filter="viz">Visualization</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <!-- Project 1 - Energy Equity Tracker -->
+                <div class="project-item" data-category="apps">
+                    <div class="project-image">
+                        <div class="placeholder-image">Energy Equity Tracker</div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">R</span>
+                            <span class="tag">Shiny</span>
+                            <span class="tag">Policy Analysis</span>
+                        </div>
+                        <h3 class="project-name">Energy Equity Tracker</h3>
+                        <p class="project-desc">
+                            Interactive Shiny application analyzing energy equity patterns and access disparities. 
+                            Visualizes data across demographics and regions to inform policy decisions.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://mariamraheem.shinyapps.io/final-project-mariamraheem/" class="project-btn" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 - NAEP Trends -->
+                <div class="project-item" data-category="apps viz">
+                    <div class="project-image">
+                        <div class="placeholder-image">NAEP Trends</div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">R</span>
+                            <span class="tag">Shiny</span>
+                            <span class="tag">Education Data</span>
+                        </div>
+                        <h3 class="project-name">NAEP Trends Dashboard</h3>
+                        <p class="project-desc">
+                            Comprehensive visualization tool tracking National Assessment of Educational Progress trends. 
+                            Explores achievement gaps and performance patterns across states and demographics.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://mariamraheem.shinyapps.io/naep_overview/" class="project-btn" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 - CPS Enrollment Trends -->
+                <div class="project-item" data-category="apps analysis">
+                    <div class="project-image">
+                        <div class="placeholder-image">CPS Enrollment</div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Streamlit</span>
+                            <span class="tag">Chicago Data</span>
+                        </div>
+                        <h3 class="project-name">Chicago Public Schools Enrollment Trends</h3>
+                        <p class="project-desc">
+                            Interactive Streamlit dashboard analyzing enrollment patterns across Chicago Public Schools. 
+                            Helps families and policymakers understand school choices and demographic shifts.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://k1c-cps-enrollment.streamlit.app/" class="project-btn" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Mariam Raheem. Built with curiosity and code.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
